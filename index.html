@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title> Tip calculator app</title>
+
+</head>
+<body>
+
+  <h1 class="title">SPLI<br>TTER</h1>
+  <div class="container">
+    <div class="calculator">
+      <header>
+        <h4>Bill</h4>
+        <div class="input-container">
+          <img src="images/icon-dollar.svg" class="fa-dollar-sign" >
+          <input type="number" name="money" id="money"
+          placeholder="0">
+        </div>
+      </header>
+      <div class="content">
+          <h4>Select tip %</h4>
+          <div class="buttons">
+            <button class="tip-amount" value=5>5%</button>
+            <button class="tip-amount" value=10>10%</button>
+            <button class="tip-amount" value=15>15%</button>
+            <button class="tip-amount" value=25>25%</button>
+            <button class="tip-amount" value =50>50%</button>
+            <input type="number" name="custom-amount" id="custom-amount" placeholder="Custom" class="tip-amount">
+          </div>
+      </div>
+      <footer>
+        <div class="error-message">
+          <h4>Number of People </h4>
+          <p id="error">Can't be zero</p>
+        </div>
+        
+        <div class="input-container">
+          <img src="images/icon-person.svg" class="fa-users">
+          <input type="number"  id="number-people" placeholder="0"  class="wrong">
+        </div>
+      </footer>
+      </div>
+      <!-- RIGHT SIDE OF THE CONTAINER - THE AMOUNT -->
+    <div class="display">
+      <div class="display1">
+        <div class="display-amount">
+          <div class="display-text">
+              <h3>Tip Amount</h3>
+              <p>/ person</p>
+          </div>
+          <h2 id="tip-amount-person">$0.00</h2>
+      </div>
+      <div class="display-amount">
+        <div class="display-text">
+          <h3>Total</h3>
+          <p>/ person</p>
+        </div>
+        <h2 id="total-amount">$0.00</h2>
+      </div>
+      </div>
+      
+      <button id="reset">RESET</button>
+    </div>
+  </div>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Domnita Raul-Catalin</a>.
+  </div> -->
+  <script src="script.js"></script>
+</body>
+</html>
