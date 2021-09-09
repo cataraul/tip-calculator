@@ -369,6 +369,8 @@ body{
     border-top:0.19rem solid #d24b2d;
     border-bottom:0.19rem solid #d24b2d;
     border-left:0.19rem solid #d24b2d;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
 .number-people-border{
     border-top:0.19rem solid #d24b2d;
