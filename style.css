@@ -163,6 +163,7 @@ body{
     display:none;
 }
 
+
 .display{
     width:22rem;
     height:22rem;
@@ -196,7 +197,7 @@ body{
     color:hsl(172, 67%, 45%);
     font-size:2rem;
 }
-#reset {
+.button-des {
     width:20rem;
     height:3rem;
     background-color:hsl(172, 67%, 45%);
@@ -207,7 +208,7 @@ body{
     font-weight:600;
     color:hsl(183, 100%, 15%);
 }
-#reset:hover{
+.button-des:hover{
     background-color:hsl(185, 48%, 74%)
 }
 .show{
@@ -218,6 +219,9 @@ body{
 .picked{
     background-color:hsl(172, 67%, 45%);
     color:hsl(183, 100%, 15%);
+}
+.border-num{
+    border:0.19rem solid hsl(172, 67%, 45%) ;
 }
 .wrong {
     border:1px solid hsl(11, 65%, 50%);
@@ -250,7 +254,7 @@ body{
         width:9rem;
         
     }
-    #reset {
+    .button-des {
         width:90%;
         height:4rem;
         font-size:2.2rem;
@@ -325,7 +329,7 @@ body{
     }
    
     .calculator header input, .calculator footer input{
-        width:70%;
+        width:90%;
     }
     .buttons button{
         height:2.5rem;
@@ -333,7 +337,10 @@ body{
         
     }
     .calculator .content .buttons{
-        grid-gap:0.2rem;
+        grid-gap:0.4rem;
+    }
+    .buttons button{
+        width:7rem;
     }
     .buttons input {
         height:2.5rem;
@@ -342,7 +349,7 @@ body{
     .display-amount{
         justify-content: space-evenly;
     }
-    #reset{
+    .button-des{
         width:80%;
     }
 }
@@ -350,4 +357,21 @@ body{
     .container{
         width:100%;
     }
+}
+
+
+
+
+
+
+
+.user-sign-border{
+    border-top:0.19rem solid #d24b2d;
+    border-bottom:0.19rem solid #d24b2d;
+    border-left:0.19rem solid #d24b2d;
+}
+.number-people-border{
+    border-top:0.19rem solid #d24b2d;
+    border-bottom:0.19rem solid #d24b2d;
+    border-right:0.19rem solid #d24b2d;
 }
