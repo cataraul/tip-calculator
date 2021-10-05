@@ -197,19 +197,19 @@ body{
     color:hsl(172, 67%, 45%);
     font-size:2rem;
 }
-.button-des {
+#reset {
     width:20rem;
     height:3rem;
     background-color:hsl(172, 67%, 45%);
     border:none;
     border-radius:0.4rem;
-    cursor:pointer;
     font-size:1.2rem;
     font-weight:600;
     color:hsl(183, 100%, 15%);
 }
-.button-des:hover{
-    background-color:hsl(185, 48%, 74%)
+#reset:hover{
+    background-color:hsl(185, 48%, 74%);
+    cursor:pointer;
 }
 .show{
     display:block;
